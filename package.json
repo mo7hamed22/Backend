@@ -1,0 +1,28 @@
+{
+  "name": "task-management-server",
+  "version": "1.0.0",
+  "description": "This is a node server that handles the functionalities of tasks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mo7hamed22/Task-Management-Node-Server.git"
+  },
+  "author": "mohamed-mahmoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mo7hamed22/Task-Management-Node-Server/issues"
+  },
+  "homepage": "https://github.com/mo7hamed22/Task-Management-Node-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "sequential-ids": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
