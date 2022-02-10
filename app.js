@@ -4,7 +4,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const _port = 3200;
 const tasksRoutes = require('./routes/taskroutes');
-// app.use(cors());
+ app.use(cors());
 
 // create application/json parser
 var jsonParser = bodyParser.json();
